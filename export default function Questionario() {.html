@@ -1,0 +1,12 @@
+   export default function Questionario() {
+     return (
+       <div className="p-8">
+         <h1 className="text-2xl font-bold mb-4">Questionario AI</h1>
+         <form>
+           <textarea className="border p-2 mb-2 w-full" placeholder="Scrivi la tua domanda..." required></textarea><br />
+           <button className="bg-blue-500 text-white px-4 py-2 rounded" type="submit">Invia</button>
+         </form>
+         {/* Qui apparirà la risposta AI */}
+       </div>
+     );
+   }
