@@ -1,0 +1,11 @@
+import Link from "next/link";
+
+export default function Navbar() {
+  return (
+    <nav className="bg-gray-100 p-4 mb-8">
+      <Link href="/" className="mr-4">Home</Link>
+      <Link href="/contatti" className="mr-4">Contatti</Link>
+      <Link href="/questionario">Questionario AI</Link>
+    </nav>
+  );
+}
